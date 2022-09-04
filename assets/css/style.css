@@ -4445,11 +4445,11 @@ img {
   }
 }
 
-@media (max-width: 991px) {
-  .static-hero-s2 .middle-couple-pic {
-    display: none;
-  }
-}
+/*@media (max-width: 991px) {*/
+/*  .static-hero-s2 .middle-couple-pic {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
 
 .static-hero-s2 .text-grid {
   width: 20%;
@@ -4471,17 +4471,18 @@ img {
 
 @media (max-width: 991px) {
   .static-hero-s2 .text-grid {
-    width: 40%;
+    /*width: 40%;*/
+    display: none;
   }
 }
 
-@media (max-width: 767px) {
-  .static-hero-s2 .text-grid {
-    width: 100%;
-    padding: 0;
-    text-align: center;
-  }
-}
+/*@media (max-width: 767px) {*/
+/*  .static-hero-s2 .text-grid {*/
+/*    width: 100%;*/
+/*    padding: 0;*/
+/*    text-align: center;*/
+/*  }*/
+/*}*/
 
 .static-hero-s2 .text-grid h3 {
   font-size: 22px;

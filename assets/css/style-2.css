@@ -1,0 +1,161 @@
+/*-------------------------------------------
+	static-hero-s2
+--------------------------------------------*/
+.static-hero-s2-2 {
+    background: #edf3f8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+@media (max-width: 991px) {
+    .static-hero-s2-2 {
+        height: 520px;
+        display: flex;
+    }
+}
+
+.static-hero-s2-2 .hero-inner {
+    /*padding-top: 120px;*/
+}
+
+.static-hero-s2-2 .hero-inner .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.static-hero-s2-2 .couple-area > div {
+    float: left;
+}
+
+@media (max-width: 991px) {
+    .static-hero-s2-2 .couple-area > div {
+        float: none;
+    }
+}
+
+.static-hero-s2-2 .text-grid {
+    width: 20%;
+    padding: 140px 80px 40px;
+}
+
+@media (max-width: 1399px) {
+    .static-hero-s2-2 .text-grid {
+        width: 25%;
+        padding: 70px 80px 40px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .static-hero-s2-2 .text-grid {
+        padding: 10px 56px 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .static-hero-s2-2 .text-grid {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .static-hero-s2-2 .text-grid {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.static-hero-s2-2 .text-grid h3 {
+    font-size: 22px;
+    font-size: 1.46667rem;
+    margin: 0 0 0.8em;
+}
+
+.static-hero-s2-2 .bride {
+    padding-left: 0;
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .static-hero-s2-2 .bride {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+.static-hero-s2-2 .bride .couple-img {
+    margin-bottom: 20px;
+}
+
+.static-hero-s2-2 .bride .social {
+    float: right;
+}
+
+@media (max-width: 767px) {
+    .static-hero-s2-2 .bride .social {
+        float: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.static-hero-s2-2 .groom {
+    padding-right: 0;
+}
+
+.static-hero-s2-2 .groom .couple-img {
+    margin-bottom: 20px;
+}
+
+.static-hero-s2-2 ul {
+    list-style: none;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .static-hero-s2-2 ul {
+        padding-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.static-hero-s2-2 ul li {
+    float: left;
+}
+
+.static-hero-s2-2 ul > li + li {
+    margin-left: 25px;
+}
+
+.static-hero-s2-2 ul li a {
+    display: block;
+    text-align: center;
+    color: #738ea5;
+}
+
+.static-hero-s2-2 ul li a:hover {
+    color: #86a0b6;
+}
