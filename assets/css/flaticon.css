@@ -7,6 +7,11 @@ url("../fonts/flaticon.eot") format("embedded-opentype"),
 url("../fonts/flaticon.svg") format("svg");
 }
 
+@font-face {
+    font-family: "aspire";
+    src: url("../fonts/AspireDemibold-YaaO.ttf")
+}
+
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     font-family: flaticon !important;
     font-style: normal;

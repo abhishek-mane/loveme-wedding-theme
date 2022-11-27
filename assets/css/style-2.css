@@ -78,9 +78,12 @@
 }
 
 .static-hero-s2-2 .text-grid h3 {
-    font-size: 22px;
-    font-size: 1.46667rem;
-    margin: 0 0 0.8em;
+    /*font-size: 22px;*/
+    /*font-size: 1.46667rem;*/
+    /*margin: 0 0 0.8em;*/
+    font-family: "aspire", serif;
+    font-size: 100px;
+    color: #023e7d;
 }
 
 .static-hero-s2-2 .bride {
